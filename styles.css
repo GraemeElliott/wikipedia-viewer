@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel:400,700");
+  
+.random-search-btn {
+  margin-left: 10px;
+}
+
+.results {
+  border-bottom: 1px solid #F1F1F1;
+  margin: 10px;
+}
+
+.title {
+  font-family: 'Cinzel', serif;
+}
+
+.full-block {
+  margin-top: 20rem;
+}
+
+.input-group {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ui-menu-item .ui-menu-item-wrapper.ui-state-active {
+  background: #F2F3F4 !important;
+  color: #000000 !important;
+  border: none !important;
+}
+
