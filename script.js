@@ -20,7 +20,7 @@ $(document).ready(function() {
         if (ui.item){
           $(".search-box").val(ui.item.value);
         }
-        searchWiki()
+        searchWiki();
       }
   });
 
