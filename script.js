@@ -18,8 +18,9 @@ $(document).ready(function() {
     },
       select: function(event, ui){
         if (ui.item){
-          $(".search-box").val(ui.item.value);
           searchWiki();
+          $(".search-box").val(ui.item.value);
+          
         }
       }
   });
