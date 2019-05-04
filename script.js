@@ -4,7 +4,7 @@ $(document).ready(function() {
   $(".search-box").autocomplete({
     source: function(request, response) {
         $.ajax({
-            url: "https://en.wikipedia.org/w/api.php",
+            url: "en.wikipedia.org/w/api.php",
             dataType: "jsonp",
             data: {
                 'action': "opensearch",
